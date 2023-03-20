@@ -17,7 +17,7 @@ const Dashboard = () => {
   }, []);
 
   const fetchTemperature = async () => {
-    const apiKey = '316744f2a8cecac8fc83b249e0d3b701';
+    const apiKey = 'API_TOKEN';
     const url = `https://api.openweathermap.org/data/2.5/weather?q=Buenos%20Aires&appid=${apiKey}&units=metric`;
 
     try {
